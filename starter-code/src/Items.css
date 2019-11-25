@@ -1,0 +1,35 @@
+.one-item {
+  color: black;
+  height: auto;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.one-item > img {
+  margin-left: 0;
+}
+
+.all-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  margin-top: 100px;
+}

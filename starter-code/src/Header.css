@@ -1,0 +1,45 @@
+#header {
+  width: 100%;
+  background: #1f2535;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+#container-main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  width: 25%;
+  margin: 50px 0 0;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1rem;
+  width: 15%;
+}
+
+#button {
+  background: white;
+  border-radius: 2px;
+  color: black;
+  font-size: 1.2rem;
+  width: 150px;
+  height: 60px;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
